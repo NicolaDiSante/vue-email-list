@@ -12,16 +12,8 @@
 
   <div id="app">
     <ul v-if="arrEmail.length === 10"> 
-      <li> {{ arrEmail[0] }} </li>
-      <li> {{ arrEmail[1] }} </li>
-      <li> {{ arrEmail[2] }} </li>
-      <li> {{ arrEmail[3] }} </li>
-      <li> {{ arrEmail[4] }} </li>
-      <li> {{ arrEmail[5] }} </li>
-      <li> {{ arrEmail[6] }} </li>
-      <li> {{ arrEmail[7] }} </li>
-      <li> {{ arrEmail[8] }} </li>
-      <li> {{ arrEmail[9] }} </li>
+      <li v-for="email in arrEmail" > {{ email }} </li>
+      
 
       
 
